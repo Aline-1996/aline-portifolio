@@ -1,0 +1,128 @@
+{
+  "nome": "Aline Daiane Carneiro",
+  "titulo": "Profissional em Transição para Desenvolvimento Web",
+  "localizacao": "Curitiba, Paraná, Brasil",
+  "email": "aline@example.com",
+  "telefone": "+55 (41) XXXXX-XXXX",
+  "bio": "Consultora de Cobrança com experiência em negociação e comunicação, atualmente cursando Programação Web.",
+  "redes_sociais": {
+    "linkedin": "https://linkedin.com/in/aline-daiane",
+    "github": "https://github.com/seu-usuario",
+    "email": "mailto:aline@example.com"
+  },
+  "experiencias": [
+    {
+      "titulo": "Consultora de Cobranças",
+      "empresa": "Bellinati Perez",
+      "tipo": "Meio Período",
+      "inicio": "2025-01",
+      "fim": "presente",
+      "localizacao": "Curitiba, Paraná, Brasil",
+      "descricao": "Realizo negociações com clientes, buscando acordos sustentáveis e eficientes.",
+      "responsabilidades": [
+        "Realizo negociações com clientes",
+        "Desenvolvo habilidades de comunicação e empatia",
+        "Trabalho em equipe para otimizar resultados"
+      ]
+    },
+    {
+      "titulo": "Auxiliar Administrativo",
+      "empresa": "Iditec",
+      "tipo": "Tempo Integral",
+      "inicio": "2020-02",
+      "fim": "2022-12",
+      "localizacao": "Brasil",
+      "descricao": "Atuação em gestão de contas a receber e atendimento ao cliente.",
+      "responsabilidades": [
+        "Gestão de contas a receber",
+        "Atendimento ao cliente",
+        "Negociação e formalização de acordos",
+        "Acompanhamento de pagamentos"
+      ]
+    }
+  ],
+  "formacao": [
+    {
+      "titulo": "Bacharelado em Ciência da Computação",
+      "instituicao": "Pontifícia Universidade Católica do Paraná",
+      "tipo": "Bacharelado",
+      "inicio": "2025-02",
+      "fim": "2030-12",
+      "descricao": "Formação completa em Ciência da Computação"
+    },
+    {
+      "titulo": "Programação Web - Formação Intensiva",
+      "instituicao": "Senac PR",
+      "tipo": "Curso",
+      "inicio": "2025-09",
+      "fim": "2025-12",
+      "descricao": "Formação intensiva focada nos fundamentos do desenvolvimento web",
+      "conteudo": [
+        "Lógica de programação",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Git e GitHub"
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "nome": "Trabalho em Equipe",
+      "descricao": "Colaboração eficiente",
+      "nivel": "Avançado"
+    },
+    {
+      "nome": "Negociação",
+      "descricao": "Acordos sustentáveis",
+      "nivel": "Avançado"
+    },
+    {
+      "nome": "Comunicação",
+      "descricao": "Expressão clara",
+      "nivel": "Avançado"
+    },
+    {
+      "nome": "Programação Lógica",
+      "descricao": "Fundamentos sólidos",
+      "nivel": "Intermediário"
+    },
+    {
+      "nome": "Atendimento ao Cliente",
+      "descricao": "Suporte de qualidade",
+      "nivel": "Avançado"
+    },
+    {
+      "nome": "Análise de Resultados",
+      "descricao": "Interpretação de dados",
+      "nivel": "Intermediário"
+    }
+  ],
+  "tecnologias": [
+    {
+      "nome": "HTML5",
+      "nivel": "Intermediário"
+    },
+    {
+      "nome": "CSS3",
+      "nivel": "Intermediário"
+    },
+    {
+      "nome": "JavaScript",
+      "nivel": "Iniciante"
+    },
+    {
+      "nome": "Git",
+      "nivel": "Iniciante"
+    },
+    {
+      "nome": "GitHub",
+      "nivel": "Iniciante"
+    }
+  ],
+  "cores": {
+    "primaria": "#6366f1",
+    "secundaria": "#8b5cf6",
+    "destaque": "#ec4899"
+  }
+}

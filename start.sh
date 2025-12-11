@@ -1,0 +1,26 @@
+#!/bin/bash
+# Script para testar o portfólio localmente
+# Uso: bash start.sh
+
+echo "🚀 Iniciando Portfólio de Aline Daiane..."
+echo ""
+echo "Seu portfólio está em:"
+echo "  📁 c:\\xampp\\htdocs\\programadorweb\\portifolio_Aline"
+echo ""
+echo "Para abrir no navegador:"
+echo "  1. Clique 2x em 'portifolio.html'"
+echo "  OU"
+echo "  2. Abra em seu editor e use 'Live Server'"
+echo ""
+echo "📚 Documentação:"
+echo "  • QUICK_START.md      - Comece aqui! (5 min)"
+echo "  • GITHUB_GUIDE.md     - Como publicar (10 min)"
+echo "  • CUSTOMIZATION.md    - Personalizar (15 min)"
+echo "  • README.md           - Documentação completa"
+echo ""
+echo "✨ Próximos passos:"
+echo "  1. Abra portifolio.html"
+echo "  2. Atualize seu email"
+echo "  3. Publique no GitHub (use GITHUB_GUIDE.md)"
+echo ""
+echo "Boa sorte! 🎉"

@@ -1,0 +1,241 @@
+/* PRINT STYLES */
+@media print {
+    /* Geral */
+    body {
+        font-size: 11pt;
+        line-height: 1.4;
+        color: #000;
+    }
+
+    /* Esconder elementos desnecessários */
+    .navbar,
+    .hamburger,
+    .hero-buttons,
+    .contato-form,
+    .footer,
+    .tech-stack,
+    section#contato {
+        display: none !important;
+    }
+
+    /* Seções */
+    section {
+        page-break-inside: avoid;
+        padding: 0.5in 0;
+        background: none !important;
+    }
+
+    h2 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+        font-size: 16pt;
+        margin-bottom: 0.3in;
+        color: #000;
+        border-bottom: 2px solid #000;
+        padding-bottom: 0.1in;
+    }
+
+    /* Hero */
+    #home {
+        text-align: left;
+        background: none;
+        color: #000;
+    }
+
+    #home h1 {
+        font-size: 24pt;
+        margin-bottom: 0;
+    }
+
+    #home .subtitle {
+        font-size: 14pt;
+        margin-bottom: 0.1in;
+    }
+
+    #home .description {
+        font-size: 11pt;
+        margin-bottom: 0.3in;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+    /* Sobre */
+    .sobre-content {
+        grid-template-columns: 1fr;
+        gap: 0.3in;
+    }
+
+    .about-stats {
+        display: none;
+    }
+
+    .sobre-text p {
+        margin-bottom: 0.15in;
+        font-size: 10pt;
+    }
+
+    /* Skills */
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.2in;
+    }
+
+    .skill-card {
+        padding: 0.3in;
+        border-top-width: 2px;
+        page-break-inside: avoid;
+    }
+
+    .skill-card h3 {
+        font-size: 12pt;
+        margin-bottom: 0.1in;
+    }
+
+    .skill-card p {
+        font-size: 9pt;
+    }
+
+    /* Timeline */
+    .timeline::before {
+        display: none;
+    }
+
+    .timeline-item {
+        grid-template-columns: 1fr;
+        gap: 0;
+        page-break-inside: avoid;
+        margin-bottom: 0.3in;
+    }
+
+    .timeline-marker {
+        display: none;
+    }
+
+    .timeline-content {
+        padding: 0.3in;
+        box-shadow: none;
+        border-left: 3px solid #000;
+        page-break-inside: avoid;
+    }
+
+    .timeline-header {
+        margin-bottom: 0.1in;
+    }
+
+    .timeline-header h3 {
+        font-size: 12pt;
+        color: #000;
+    }
+
+    .timeline-header .periodo {
+        background: #f0f0f0;
+        font-size: 9pt;
+    }
+
+    .timeline-content .empresa {
+        font-size: 10pt;
+        margin-bottom: 0.05in;
+    }
+
+    .timeline-content .localizacao {
+        font-size: 9pt;
+        margin-bottom: 0.1in;
+    }
+
+    .responsabilidades {
+        margin-bottom: 0.1in;
+    }
+
+    .responsabilidades li {
+        font-size: 9pt;
+        margin-bottom: 0.05in;
+    }
+
+    .skills-list {
+        gap: 0.2in;
+    }
+
+    .skills-list span {
+        font-size: 8pt;
+        padding: 0.2in 0.3in;
+    }
+
+    /* Formação */
+    .formacao-grid {
+        grid-template-columns: 1fr;
+        gap: 0.3in;
+    }
+
+    .formacao-card {
+        padding: 0.3in;
+        page-break-inside: avoid;
+        border-left-width: 3px;
+    }
+
+    .formacao-card h3 {
+        font-size: 12pt;
+        margin-bottom: 0.05in;
+    }
+
+    .formacao-card .instituicao {
+        font-size: 10pt;
+        margin-bottom: 0.05in;
+    }
+
+    .formacao-card .periodo {
+        font-size: 9pt;
+    }
+
+    .formacao-card .descricao {
+        font-size: 9pt;
+    }
+
+    .conteudo-chave {
+        padding: 0.2in;
+        background: #f5f5f5;
+        margin-top: 0.1in;
+    }
+
+    .conteudo-chave p {
+        font-size: 10pt;
+        margin-bottom: 0.05in;
+    }
+
+    .conteudo-chave li {
+        font-size: 9pt;
+    }
+
+    /* Página */
+    @page {
+        margin: 0.5in;
+        size: A4;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Quebras de página */
+    #experiencia {
+        page-break-before: avoid;
+    }
+
+    #formacao {
+        page-break-before: avoid;
+    }
+}
+
+/* Preview de Impressão */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+}
